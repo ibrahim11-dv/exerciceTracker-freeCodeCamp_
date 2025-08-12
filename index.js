@@ -1,4 +1,4 @@
-// .env file can hold PORT / MONGO_URI variable if desired
+// .env file can hold PORT 
 require('dotenv').config();
 
 const express = require('express');
