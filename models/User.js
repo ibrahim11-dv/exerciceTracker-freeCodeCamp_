@@ -1,7 +1,8 @@
 // Set up mongoose connection to MONGO DB:
 const mongoose = require('mongoose');
+const URI = "mongodb+srv://brahimchahlafi273:uBKAV935XklGnN4H@cluster0.prvtdlp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose
-  .connect(process.env.MONGO_URI, {
+  .connect(URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
